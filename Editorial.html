@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artigo Primeiro</title>
+    <style>
+        table, th, td {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        .red-header {
+            background-color: rgb(161, 39, 34);
+            padding: 10px;
+        }
+</style>
 </head>
 <body>
-    
+
+<header class="red-header">
+    <h1> <img src="https://static.thenounproject.com/png/4778723-200.png" alt="logo" style="margin: 2px; width: 42px;height: 42px;">Página 1</h1>
+
+</header>
+<nav>
+    <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ol>
+</nav>
+
+<Article>
     <h1>Artigo Primeiro</h1>
     <h2>Assunto</h2>
     <h3>Autor X</h3>
@@ -17,6 +42,68 @@
 <h3>Continuação</h3>
 <br>
 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+</Article>
 <hr>
+<br>
+<section>
+<ul> <li>simply </li>
+    <li>dummy </li>
+    <li>text</li>
+</ul>
+<br>
+<ol> <li>simply</li>
+<li>dummy</li> 
+<li>text</li>
+</ol>
+</section>
+<section>
+<dl>
+    <dt><b>what is dummy</b></dt> 
+    <dd>dummy is .........</dd>
+    <dt><b>What is simply</b></dt>
+    <dd>simply is......</dd>
+    <dt><b>what is text</b></dt>
+    <dd>text is......</dd>
+</dl>
+</section>
+<a href="index.html"><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1bed5b8-8f09-4255-81e2-826722ad9182_900x528.jpeg" alt="Porta" style="width:620px;height: 440px;"></a>
+<br>
+<br>
+<section>
+<table style="margin: 0px auto;">
+    <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>"</td>
+            <td>&</td>
+            <td>$</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+
+<footer class="red-header">
+<dl>
+    <dt>Adress</dt>
+    <dd>Certain street, 8</dd>
+    <dt>Join</dt>
+    <dd><a href="#">Here</a></dd>
+</dl>
+
+</footer>
 </body>
 </html>
